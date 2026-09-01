@@ -1,5 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
+import mimin1 from './photos/mimin-1.jpeg';
+import mimin2 from './photos/mimin-2.jpeg';
+import mimin3 from './photos/mimin-3.jpeg';
+import mimin4 from './photos/mimin-4.jpeg';
+import mimin5 from './photos/mimin-5.jpeg';
+
+
 type Photo = {
   src: string;
   alt: string;
@@ -8,11 +15,11 @@ type Photo = {
 };
 
 const PHOTOS: Photo[] = [
-  { src: "/photos/mimin-1.jpeg", alt: "Mimin", caption: "Mimin sendo Mimin.", className: "portrait tall" },
-  { src: "/photos/mimin-2.jpeg", alt: "Mimin no espelho", caption: "Simplesmente ela. ❤️", className: "portrait" },
-  { src: "/photos/mimin-3.jpeg", alt: "Mimin no espelho", caption: "A mais linda de todas. ❤️", className: "portrait" },
-  { src: "/photos/mimin-4.jpeg", alt: "Mimin no espelho", caption: "Linda igual a mãe dela. ❤️", className: "portrait" },
-  { src: "/photos/mimin-5.jpeg", alt: "Mimin", caption: "Mais uma da Mimin. ❤️", className: "portrait" },
+  { src: mimin1, alt: "Mimin", caption: "Mimin sendo Mimin.", className: "portrait tall" },
+  { src: mimin2, alt: "Mimin no espelho", caption: "Simplesmente ela. ❤️", className: "portrait" },
+  { src: mimin3, alt: "Mimin no espelho", caption: "A mais linda de todas. ❤️", className: "portrait" },
+  { src: mimin4, alt: "Mimin no espelho", caption: "Linda igual a mãe dela. ❤️", className: "portrait" },
+  { src: mimin5, alt: "Mimin", caption: "Mais uma da Mimin. ❤️", className: "portrait" },
   // Adicione novas fotos aqui:
   // { src: "/photos/mimin-3.jpeg", alt: "Mimin", caption: "Olha ela 😌❤️" },
 ];
