@@ -15,11 +15,11 @@ type Photo = {
 };
 
 const PHOTOS: Photo[] = [
-  { src: mimin1, alt: "Mimin", caption: "Mimin sendo Mimin.", className: "portrait tall" },
-  { src: mimin2, alt: "Mimin no espelho", caption: "Simplesmente ela. ❤️", className: "portrait" },
-  { src: mimin3, alt: "Mimin no espelho", caption: "A mais linda de todas. ❤️", className: "portrait" },
-  { src: mimin4, alt: "Mimin no espelho", caption: "Linda igual a mãe dela. ❤️", className: "portrait" },
-  { src: mimin5, alt: "Mimin", caption: "Mais uma da Mimin. ❤️", className: "portrait" },
+  { src: new URL('./photos/mimin-1.jpg', import.meta.url).href, alt: "Mimin", caption: "Mimin sendo Mimin.", className: "portrait tall" },
+  { src: new URL('./photos/mimin-2.jpg', import.meta.url).href, alt: "Mimin no espelho", caption: "Simplesmente ela. ❤️", className: "portrait" },
+  { src: new URL('./photos/mimin-3.jpg', import.meta.url).jpg ? new URL('./photos/mimin-3.jpg', import.meta.url).href : new URL('./photos/mimin-3.jpg', import.meta.url).href, alt: "Mimin no espelho", caption: "A mais linda de todas. ❤️", className: "portrait" },
+  { src: new URL('./photos/mimin-4.jpg', import.meta.url).href, alt: "Mimin no espelho", caption: "Linda igual a mãe dela. ❤️", className: "portrait" },
+  { src: new URL('./photos/mimin-5.jpg', import.meta.url).href, alt: "Mimin", caption: "Mais uma da Mimin. ❤️", className: "portrait" },
   // Adicione novas fotos aqui:
   // { src: "/photos/mimin-3.jpeg", alt: "Mimin", caption: "Olha ela 😌❤️" },
 ];
