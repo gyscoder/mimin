@@ -191,7 +191,7 @@ function Hero() {
       </div>
       <div className="hero-photo-wrap reveal-on-scroll">
         <div className="photo-halo" />
-        <img src="/photos/mimin-2.jpeg" alt="Mimin" className="hero-photo" />
+        <img src="/photos/mimin-2.jpg" alt="Mimin" className="hero-photo" />
         <span className="photo-sticker">♡</span>
       </div>
     </section>
