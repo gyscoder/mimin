@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import mimin1 from './photos/mimin-1.jpeg';
-import mimin2 from './photos/mimin-2.jpeg';
-import mimin3 from './photos/mimin-3.jpeg';
-import mimin4 from './photos/mimin-4.jpeg';
-import mimin5 from './photos/mimin-5.jpeg';
+import mimin1 from './photos/mimin-1.jpg';
+import mimin2 from './photos/mimin-2.jpg';
+import mimin3 from './photos/mimin-3.jpg';
+import mimin4 from './photos/mimin-4.jpg';
+import mimin5 from './photos/mimin-5.jpg';
 
 
 type Photo = {
