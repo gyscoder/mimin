@@ -2,7 +2,7 @@ name: Deploy Vite para GitHub Pages
 
 on:
   push:
-    branches: [ "main" ] # Altere para master se seu branch principal for master
+    branches: [ "main", "gh-pages" ] # Altere para master se seu branch principal for master
 
 permissions:
   contents: read
